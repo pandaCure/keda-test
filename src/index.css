@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form-block {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  min-width: 60px;
+  font-size: medium;
+  font-weight: 600;
+  color: darkgrey;
+}
+.num {
+  margin-left: 15px;
+  color: black;
+}
+.output-box {
+  height: 200px;
+  overflow: auto;
+  width: 100%;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-top: 10px;
+}
